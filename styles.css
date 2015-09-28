@@ -1,0 +1,169 @@
+body, html{
+  background-image: url(img/wall.jpg);
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+
+.ADancer,
+.dancer,
+.BDancer,
+.CDancer{
+  height: 200px;
+  width: 200px;
+  position:absolute;
+  transition-timing-function: linear;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+}
+
+
+.DDancer{
+  height: 600px;
+  width: 600px;
+  position:absolute;
+  transition-timing-function: linear;
+  transition: all 2s;
+}
+
+
+.BlinkyDancer{
+  background: url(img/0.png);
+  background-size: 200px;
+}
+
+.ADancer{
+  background: url(img/A.png) no-repeat center center;
+  background-size: 100px;
+}
+
+.BDancer{
+  background: url(img/B.png) no-repeat center center;
+  background-size: 100px;
+}
+
+.CDancer{
+  background: url(img/C.png) no-repeat center center;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  background-size: 100px;
+}
+
+.DDancer{
+  background: url(img/D.png) no-repeat center center;
+  background-size: 180px;
+}
+
+/*.marcus{
+  width: 100px;
+  height: 100px;
+  position:absolute;
+}*/
+
+
+/*sd*/
+
+
+/*.triangle-dancer-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+  position: absolute;
+}
+
+.triangle-dancer-down{
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid red;
+  position: absolute;
+}
+
+.draggable-star {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: yellow;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid yellow;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+
+.draggable-star:before {
+   border-bottom: 80px solid yellow;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+}
+
+.draggable-star:after {
+   position: absolute;
+   display: block;
+   color: yellow;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid yellow;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+.draggable-star{
+  -webkit-animation: spin 2s infinite linear;
+}
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}*/
